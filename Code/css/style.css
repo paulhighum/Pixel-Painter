@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(162, 231, 190);
+  height: 50px;
+}
+
+h1 {
+  margin: 0 0 0 5vw;
+  display: flex;
+  align-items: center;
+}
+
+#palette-display img {
+  width: 50px;
+  height: 50px;
+}
+
+header button {
+  margin: 0 5vw 0 0;
+  font-size: 1.5rem;
+  background-color: rgba(226, 226, 226, 0.75);
+  font-family: "Raleway", sans-serif;
+}
+
+main {
+  flex: 1;
+  background-color: rgb(232, 198, 149);
+  display: flex;
+  justify-content: center;
+}
+
+#canvas {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#palette {
+  display: none;
+  position: absolute;
+  left: 20vw;
+  top: 8vh;
+  z-index: +1;
+  background-color: rgba(226, 226, 226, 0.75);
+  width: 60vw;
+}
+
+footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(162, 231, 190);
+  height: 50px;
+}
+
+footer p {
+  margin: 0 1vw 0 0;
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+}
