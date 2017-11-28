@@ -13,7 +13,7 @@ header {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(162, 231, 190);
+  background-color: rgb(93, 183, 217);
   height: 50px;
 }
 
@@ -37,7 +37,7 @@ header button {
 
 main {
   flex: 1;
-  background-color: rgb(232, 198, 149);
+  background-color: rgb(230, 250, 255);
   display: flex;
   justify-content: center;
 }
@@ -59,12 +59,17 @@ main {
   width: 60vw;
 }
 
+#palette img {
+  height: 20px;
+  width: 20px;
+}
+
 footer {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  background-color: rgb(162, 231, 190);
+  background-color: rgb(93, 183, 217);
   height: 50px;
 }
 
