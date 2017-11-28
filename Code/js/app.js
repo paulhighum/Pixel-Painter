@@ -67,7 +67,6 @@ function colorDrag(e){
     e.target.style.backgroundColor = savedColor
     e.target.style.borderColor = savedColor
   } else if(eraser === true && drag === true){
-    document.querySelector("#canvas").style.cursor = "crosshair"
     e.target.style.backgroundColor = "white"
     e.target.style.border = "1px black solid"
   }
