@@ -72,7 +72,6 @@ function colorDrag(e){
   }
 }
 
-
 function showPalette(){
   document.querySelector("#palette-display").addEventListener("mouseover", function(){
     document.querySelector("#palette").style.display = "flex"
@@ -118,7 +117,7 @@ function eraserSelected(){
   eraser = true
   document.querySelector("#palette").style.display = "none"
   var tempEraser = document.createElement("img")
-  tempEraser.src = "eraser.png"
+  tempEraser.src = "/assets/eraser.png"
   tempEraser.style.width = "20px"
   tempEraser.style.height = "20px"
   document.querySelector("footer").appendChild(tempEraser)
