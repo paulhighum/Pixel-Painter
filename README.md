@@ -9,7 +9,7 @@ Welcome to Pixel Painter, a classic pixel painting game!
 
 
 
-Color each pixel individually by clicking on it, or hold the mouse down and color as many pixels at a time as you want!
+You access the color palette container by hovering over the icon of the pallete. Once you select a color you can color each pixel individually by clicking on it, or hold the mouse down and color as many pixels at a time as you want! The only limits to what you paint are your imagination! Maybe you like lobsters as much as I do and you want to paint something like this: 
 
 
 <img width="1552" alt="lobster-ex" src="https://user-images.githubusercontent.com/26422138/34066892-6fb43840-e1d4-11e7-904a-19f4b5eb934f.png">
@@ -18,7 +18,4 @@ Color each pixel individually by clicking on it, or hold the mouse down and colo
 
 
 
-This game utilizes Javascript to change the HTML and CSS based on which color is selected.
-
-
-Canvas size is responsive and resizes when you resize the window.
+This game utilizes Javascript to change the HTML and CSS based on which color is selected. Canvas size is also responsive and resizes when you resize the window.
