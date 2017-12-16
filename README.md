@@ -12,6 +12,7 @@ Welcome to a classic, pixel painting game!
 
 Use this blank canvas to click and color, or drag and color any image you can imagine!
 
+<img width="1552" alt="lobster-ex" src="https://user-images.githubusercontent.com/26422138/34066892-6fb43840-e1d4-11e7-904a-19f4b5eb934f.png">
 
 
 
