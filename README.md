@@ -12,7 +12,7 @@ You access the color palette container by hovering over the icon of the pallete.
 This game utilizes Javascript to change the HTML and CSS based on which color is selected. Canvas size is also responsive and resizes when you resize the window.
 
 ## Installation Instructions
-Using the app does not require any installation, just visit https://daily-animal-fact.firebaseapp.com/. You are also free to use the source code for the app, located in this repository. To install  please follow these installation instructions:
+Using the app does not require any installation, just visit the [site](https://pixel-art-pmh.firebaseapp.com/). You are also free to use the source code for the app, located in this repository. To install  please follow these installation instructions:
 
 Fork and clone this repository.
 
